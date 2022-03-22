@@ -1,318 +1,51 @@
-*{
-	margin: 0px;
-	padding: 0;
-	box-sizing: border-box;
-	text-decoration: none;
+.logo{ 
+	width: 8rem;
+	height: 3rem;
+	image-rendering:pixelated;
 }
-header{
-	height: 100px;
-	background-color: #fd611a;
-	
-}
-
-.header__logo{
-	position: relative;
-	left: 1.5rem;
-	top: 0.5rem;
-	margin: auto;
-	padding: auto;
-	border: 2px solid transparent;
-	
-}
-.header__logo--imagen{
-
-	height: 80px;
-	border-radius: 10px;
-}
-.nav-buttons{
-	display:flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	position:absolute;
-	right: 10rem;
-	bottom: 2.9rem;
-	position: relative;
-	margin:auto;
-	padding: auto;
-	background-color: transparent;
-
-}
-header nav ul li{
-	
-	display: inline-block;
-	margin-left: 2rem;
-	margin-right: 2rem;
-
-	padding: 0.1rem 1rem;
-	border-radius: 10px;
-	background-color: transparent;
-	box-shadow: 2px 2px 2px #000000;
-	
-}
-a, span, h3, .formulario_titulo{
-	color: #000000;
-	font-size: 28px;
-	font-family: 'Dongle', sans-serif;
-	list-style: none;
-	
-}
-.iconocarrito{
-	color: #000000;
-	margin: auto;
-	position: absolute;
-	top: 2.9rem;
-	right: 34rem;
-	font-size: 30px;
-	background-color: transparent;
-	border-color: transparent;	
-	box-shadow: 2px 2px 2px #000000;
-	border-radius: 10px;
-}
-
-section.hearder__button{
-	display: inline-block;
-	position: absolute;
-	margin: auto;
-	padding: auto;
-	top: 2.6rem;
-	right: 7rem;
-	list-style: none;
-	background-color: transparent;
-
-}
-
-header section ul li{
-	display: inline-block;
-	margin-left: 2rem;
-	margin-right: 2rem;
-
-	padding: 0.1rem 1rem;
-	border: 1px solid #000000;
-	border-radius: 10px;
-	background-color: transparent;
-	box-shadow: 2px 2px 2px #000000;
-}
-li{
-	list-style: none;
-}
-
-
-
-main{
-	position: relative;
-	height: 40rem;
-	
-}
-
-.search{
-	display: inline-block;
-	position: absolute;
-	top: 5rem;
-	left: 35rem;
-}
-
-#search{
-
-	background-color: transparent;
-	width: 700px;
-	height: 55px;
-	border: 2px solid #000000;
-	box-shadow: 1px 1px 1px #000000;
-	margin-right: 2rem;
-	left: 2rem;
-	border-radius: 10px;
-}
-main section input::placeholder{
-	color: gris;
-}
-.button__enter{
-	display: inline-block;
-	padding: 0.1rem 1rem;
-	border: 2px solid #000000;
-	box-shadow: 2px 2px 2px #000000;
-	border-radius: 10px;
-}
-
-.Carrucel__imagenes{
-	position: absolute;
-	top: 13rem;
-	left: 35rem;
-}
-
-.Galeria__carrusel__botones{
-	display: inline-block;
-	position: absolute;
-	top: 16rem;
-	right: 18rem;
-	width: 10rem;
-}
-.Categorias__divisorias--primaria{
-	font-size: 32px;
-	display:inline-block;
-	position: relative;
-	color: black;
-	left: 56rem;
-	font-family: 'Dongle', sans-serif;
-	bottom: 5rem;
-}
-h2::after, h2::before{
-	content: "";
-	position: absolute;
-	width: 350px;
-	height: 3px;
-	background-color: currentColor;
-	top: 2rem;
-	
-}
-.Categorias__divisorias--secundaria{
-	font-size: 32px;
-	display:inline-block;
-	position: relative;
-	color: black;
-	left: 46rem;
-	font-family: 'Dongle', sans-serif;
-	top: 30rem;
-}
-
-
-h2::after{
-	left: -370px;
-}
-h2::before{
-	right: -370px;
-}
-
-.imagenes{
-	width: 10rem;
-	height: 15rem;
-}
-.categorias{
-	position: relative;
-	height: 60rem;
-}
-
-.categorias__primarias{
-	display: inline-block;
-	position: absolute;
-	top: 3rem;
-	left: 32rem;
-}
-.categorias__primarias img{
-	width: 20rem;
-	height: 25rem;
-	margin-left: 4rem;
-	margin-right: 4rem;
-}
-.categorias__secundarias{
-	display: inline-block;
-	position: absolute;
-	top: 35rem;
-	left: 32rem;
-
-}
-.categorias__secundarias img{
-	width: 20rem;
-	height: 25rem;
-	margin-left: 4rem;
-	margin-right: 4rem;
-}
-.gif__para__frases{
-	margin-top: 2rem;
-	position: relative;
-	background-image: url("https://thumbs.gfycat.com/AdolescentFloweryCougar-max-1mb.gif");
-	height: 10rem;
-	background-repeat:no-repeat ;
-	background-size: 100%;
-	
-}
-div p{
-	color: aliceblue;
-}
-.formualrio__redes__sociales__maps{
-	height: 40rem;
-	width: 111rem;
-
-	position: relative;
-	background-color: #DA1212;
-	
-}
-
-#usename,#email, #text,#descripcion, .formulario__botones input{
-	border: 2px solid black;
-	border-radius: 10px;
-	background-color: transparent;
-	width: 15rem;
-	margin: 0.5rem 2rem;
-	color: black;
-	font-size: 24px;
-	font-family: 'Dongle', sans-serif;
-
-}
-.formulario{
-	position: absolute;
-
-	margin-top: 3rem;
-	margin-left: 1rem;
-	border:2px solid black;
-	height: 20rem;
-	width: 35rem;
-}
-section fieldset table tbody tr td div input::placeholder{
+.Black{ 
 	color: black;
 }
-.formulario_titulo{
-	display: block;
+
+
+.search{ 
+	width: 37rem;
+	height: 3rem;
 }
 
-.formulario__botones{
-	display: inline-flex;
-	display: relative;
-}
-
-.icono{
-	display: inline-block;
-	position: absolute;
-	left: 40rem;
-	top: 5rem;
-}
-.icono img{
-	height: 70px;
-
-}
-.maps{
-	display: inline-block;
-	position: absolute;
-	left: 75rem;
-	top: 15rem;
-}
-.maps inframe{
-	height: 100px;
-}
-.footer{
-	display: inline-block;
-	position: absolute;
+.imagen__carrusel{ 
 	width: 100%;
-	top:35rem;
-	
+	height: 40rem;
+	image-rendering:pixelated;
 }
-.paginado{
-	display: inline-block;
-	position: absolute;
-	top:38rem;
+.nav__margin__items{ 
+	margin-right: 40rem;
+}.imagenes__index{ 
+	width: 100%;
+	height: 40rem;
 
 }
-.redesociales{
-	position:relative;
-	display: flex;
-	right: 20rem;
-	top: 3rem;
-	width: 10rem;
-	height: 5rem;
+.gif__tamanioo{ 
+	width: 100%;
+	height: 10rem;
+	image-rendering:crisp-edges;
+
 }
-.resdes__sociales__titulo{
-	position: absolute;
-	display: inline-block;
-	right: 50rem;
-	top:2rem;
-	
+.fondo{ 
+	background-color: #00947e;
+}
+.fondo__sesion{ 
+	background-color: #006383;
+}
+.primavera{
+	background-color: #00947e;
+}
+.verano{
+	background-color: #ffcc7c;
+}
+.otonio{
+	background-color: #ffb387;
+}
+.invierno{
+	background-color:#006383 ;
 }
