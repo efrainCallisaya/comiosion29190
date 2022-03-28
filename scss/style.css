@@ -1,0 +1,52 @@
+.fondo__registrate {
+  background-color: #00947e;
+}
+
+.fondo__sesion {
+  background-color: #006383;
+}
+
+.primavera {
+  background-color: #00947e;
+}
+
+.verano {
+  background-color: #ffcc7c;
+}
+
+.otonio {
+  background-color: #ffb387;
+}
+
+.invierno {
+  background-color: #006383;
+}
+
+.imagen__carrusel {
+  width: 100%;
+  height: 40rem;
+  image-rendering: crisp-edges;
+}
+
+.imagen__index {
+  width: 100%;
+  height: 40rem;
+}
+
+.logo {
+  width: 10rem -2;
+  height: 10rem -7;
+  image-rendering: crisp-edges;
+}
+
+.search {
+  width: 37rem;
+  height: 10rem -7;
+}
+
+.gif__tamanioo {
+  width: 100%;
+  height: 10rem;
+  image-rendering: crisp-edges;
+}
+/*# sourceMappingURL=style.css.map */

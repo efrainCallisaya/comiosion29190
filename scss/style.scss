@@ -1,0 +1,59 @@
+@import 'palette';
+@import 'map';
+
+$ancho: 10rem;
+$alto: 10rem;
+
+
+.fondo__registrate{ 
+	background-color: map-get($map: $palette, $key: 'primavera');
+}
+.fondo__sesion{ 
+	background-color: map-get($map: $palette, $key:'invierno' );
+}
+.primavera{
+	background-color:map-get($map: $palette, $key: 'primavera');
+}
+.verano{
+	background-color: map-get($map: $palette, $key: 'verano');
+}
+.otonio{
+	background-color: map-get($map: $palette, $key: 'otonio');
+}
+.invierno{
+	background-color:map-get($map: $palette, $key: 'invierno') ;
+}
+
+.imagen__carrusel{ 
+	width: map-get($map: $imagen, $key:width);
+    height: map-get($map: $imagen, $key:height );
+    image-rendering:crisp-edges;
+}
+
+.imagen__index{ 
+	width: map-get($map: $imagen, $key:width);
+    height: map-get($map: $imagen, $key:height );
+
+}
+
+.logo{ 
+	width: $ancho -2;
+	height: $alto -7;
+	image-rendering:crisp-edges;
+}
+
+
+.search{ 
+	width: $ancho + 27;
+	height: $alto -7;
+}
+
+
+.gif__tamanioo{ 
+	width: 100%;
+	height: $alto;
+	image-rendering:crisp-edges;
+}
+
+
+
