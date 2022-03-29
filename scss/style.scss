@@ -24,10 +24,30 @@ $alto: 10rem;
 	background-color:map-get($map: $palette, $key: 'invierno') ;
 }
 
+@mixin media-up ($breakpoint) {
+	@media screen and (min-width: map-get($breakpoints,$breakpoint)){ 
+		@content;
+		
+	}
+	
+}
+
 .imagen__carrusel{ 
-	width: map-get($map: $imagen, $key:width);
-    height: map-get($map: $imagen, $key:height );
-    image-rendering:crisp-edges;
+	@include media-up(movile){
+		width: 18.75;
+		height: 18.75;
+	}
+	@include media-up(tablet){
+		width: 43.375rem;
+		height: 43.375;
+	}
+	@include media-up(pc){
+		width: 100%;
+		height: 56.25rem;
+	}
+
+
+    image-rendering:crisp-edges
 }
 
 .imagen__index{ 
